@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a9a9a9;
+  padding-top: 30px;
+}
+
+.main_container {
+  max-width: 100vh;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 300px;
+  border-radius: 10px;
+}
+.main_content {
+  padding: 30px 20px;
+}
+.heading {
+  font-weight: 400;
+  font-size: 30px;
+  font-family: sans-serif;
+  padding-bottom: 20px;
+}
+.input_feild_includesfname {
+  display: flex;
+  justify-content: space-between;
+}
+.input_feild_includesfname span {
+  display: block;
+  font-weight: 400;
+  font-family: sans-serif;
+  padding: 5px;
+}
+
+.input_feild_includesfname input,
+select {
+  width: 300px;
+  height: 40px;
+}
+
+#address_feild {
+  width: 750px;
+  height: 150px;
+}
+
+.apply_btn {
+  text-align: end;
+  padding-top: 50px;
+}
+.apply_btn button {
+  height: 30px;
+  width: 150px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+#cv_upload_input input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid black;
+  padding: 10px 10px;
+  border-radius: 2px;
+}
